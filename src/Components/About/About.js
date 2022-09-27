@@ -1,3 +1,5 @@
+import 
+
 const About1 = () => (
   <div className="information">
     <h4 className="typography">About</h4>

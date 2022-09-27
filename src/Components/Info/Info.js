@@ -1,5 +1,5 @@
 import profile from "../images/profile.png";
-import {Button1, Button2} from "./Buttons";
+import {Button1, Button2} from "../Buttons/Buttons";
 
 const Info1 = () => (
   <div className="info-section">
