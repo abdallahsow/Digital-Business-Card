@@ -2,7 +2,7 @@ import { Info1, Info2, Info3, Info4 } from "./Components/Info";
 import { Interests1, Interests2 } from "./Components/Interests";
 import { Footer1, Footer2 } from "./Components/Footer";
 import { About1, About2 } from "./Components/About";
-import "./project-2.css";
+import "./App.css";
 
 export default function App() {
   return (
