@@ -193,21 +193,3 @@
   padding-top: 5px;
   padding-bottom: 30px;
 }
-
-.footer1 {
-  display: flex;
-  justify-content: center;
-  gap: 25px;
-  background-color: #161619;
-  padding: 20px 0;
-  border-radius: 0px 0px 10px 10px;
-}
-
-.footer2 {
-  display: flex;
-  justify-content: center;
-  gap: 25px;
-  background-color: #D5D4D8;
-  padding: 20px 0;
-  border-radius: 0px 0px 10px 10px;
-}
