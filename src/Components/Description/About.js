@@ -1,4 +1,4 @@
-import "./About.css"
+import "./Description.css"
 
 const About = ({ information, typography, sideTypography }) => (
   <div className={information}>

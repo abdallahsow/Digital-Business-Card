@@ -1,7 +1,7 @@
 import { Info1, Info2, Info3, Info4 } from "./Components/Info/Info";
-import { Interests1, Interests2 } from "./Components/Interests/Interests";
+import Interests from "./Components/Description/Interests";
 import Footer from "./Components/Footer/Footer";
-import About from "./Components/About/About";
+import About from "./Components/Description/About";
 import "./App.css";
 
 export default function App() {
@@ -17,7 +17,11 @@ export default function App() {
               typography="typography"
               sideTypography="typography-p"
             />
-            <Interests1 />
+            <Interests
+              information="information"
+              typography="typography"
+              sideTypography="typography-p"
+            />
           </section>
           <Footer footer="dark-footer" />
         </div>
@@ -29,7 +33,11 @@ export default function App() {
               typograhy="typography-wh typography"
               sideTypography="typography-p-wh typography-p"
             />
-            <Interests2 />
+            <Interests
+              information="information"
+              typograhy="typography-wh typography"
+              sideTypography="typography-p-wh typography-p"
+            />
           </section>
           <Footer footer="dark-footer footer" />
         </div>
@@ -44,7 +52,11 @@ export default function App() {
               typography="typography"
               sideTypography="typography-p"
             />
-            <Interests1 />
+            <Interests
+              information="information"
+              typography="typography"
+              sideTypography="typography-p"
+            />
           </section>
           <Footer footer="dark-footer" />
         </div>
@@ -56,7 +68,11 @@ export default function App() {
               typograhy="typography-wh typography"
               sideTypography="typography-p-wh typography-p"
             />
-            <Interests2 />
+            <Interests
+              information="information"
+              typograhy="typography-wh typography"
+              sideTypography="typography-p-wh typography-p"
+            />
           </section>
           <Footer footer="dark-footer footer" />
         </div>
