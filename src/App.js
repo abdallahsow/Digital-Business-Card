@@ -1,6 +1,6 @@
 import { Info1, Info2, Info3, Info4 } from "./Components/Info/Info";
 import { Interests1, Interests2 } from "./Components/Interests/Interests";
-import { Footer1, Footer2 } from "./Components/Footer/Footer";
+import Footer from "./Components/Footer/Footer";
 import { About1, About2 } from "./Components/About/About";
 import "./App.css";
 
@@ -15,7 +15,7 @@ export default function App() {
             <About1 />
             <Interests1 />
           </section>
-          <Footer1 />
+          <Footer footer="dark-footer" />
         </div>
         <div className="card">
           <section className="layout-1">
@@ -23,7 +23,7 @@ export default function App() {
             <About2 />
             <Interests2 />
           </section>
-          <Footer2 />
+          <Footer footer="dark-footer footer" />
         </div>
       </div>
       {/* Second column */}
@@ -34,7 +34,7 @@ export default function App() {
             <About1 />
             <Interests1 />
           </section>
-          <Footer1 />
+          <Footer footer="dark-footer" />
         </div>
         <div className="card">
           <section className="layout-1">
@@ -42,7 +42,7 @@ export default function App() {
             <About2 />
             <Interests2 />
           </section>
-          <Footer2 />
+          <Footer footer="dark-footer footer" />
         </div>
       </div>
     </main>

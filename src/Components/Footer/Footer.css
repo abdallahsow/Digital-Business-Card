@@ -1,0 +1,12 @@
+.dark-footer {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  background-color: #161619;
+  padding: 20px 0;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.footer {
+  background-color: #D5D4D8;
+}

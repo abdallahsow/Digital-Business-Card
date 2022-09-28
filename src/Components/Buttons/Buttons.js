@@ -1,3 +1,4 @@
+import "./Buttons.css";
 import mail from "../images/mail-icon.png";
 import linkedin from "../images/linkedin-icon.png";
 
@@ -27,4 +28,4 @@ function Button2() {
   );
 }
 
-export {Button1, Button2};
+export { Button1, Button2 };

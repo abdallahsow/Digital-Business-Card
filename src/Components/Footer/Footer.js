@@ -2,10 +2,12 @@ import Twitter from '../images/twitter-icon.png';
 import Facebook from '../images/facebook-icon.png';
 import Instagram from '../images/instagram-icon.png';
 import GitHub from "../images/github-icon.png";
+import "./Footer.css";
 
-function Footer1() {
-    return (
-      <footer className="footer1">
+
+function Footer({ footer }) {
+  return (
+    <footer className={footer}>
         <img src={Twitter} alt="Twitter icon" />
         <img src={Facebook} alt="Facebook icon" />
         <img src={Instagram} alt="Instagram icon" />
@@ -14,15 +16,4 @@ function Footer1() {
     );
 }
 
-function Footer2() {
-  return (
-    <footer className="footer2">
-      <img src={Twitter} alt="Twitter icon" />
-      <img src={Facebook} alt="Facebook icon" />
-      <img src={Instagram} alt="Instagram icon" />
-      <img src={GitHub} alt="GitHub icon" />
-    </footer>
-  );
-}
-
-export { Footer1, Footer2 };
+export default Footer;

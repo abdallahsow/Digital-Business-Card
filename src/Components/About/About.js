@@ -1,4 +1,4 @@
-import 
+import "./About.css"
 
 const About1 = () => (
   <div className="information">
